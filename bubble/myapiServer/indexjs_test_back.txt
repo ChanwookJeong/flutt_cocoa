@@ -1,0 +1,136 @@
+Microsoft Windows [Version 10.0.22621.963]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Windows\System32>cd C:\Users\chance\Desktop\make\myapiServer
+
+C:\Users\chance\Desktop\make\myapiServer>dir
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 6AE3-CEB5
+
+ C:\Users\chance\Desktop\make\myapiServer 디렉터리
+
+2023-01-02  오후 05:03    <DIR>          .
+2023-01-02  오후 05:18    <DIR>          ..
+2023-01-02  오후 05:15               214 index.js
+               1개 파일                 214 바이트
+               2개 디렉터리  299,225,624,576 바이트 남음
+
+C:\Users\chance\Desktop\make\myapiServer>node index.js
+node:internal/modules/cjs/loader:998
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- C:\Users\chance\Desktop\make\myapiServer\index.js
+[90m    at Module._resolveFilename (node:internal/modules/cjs/loader:995:15)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:841:27)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1061:19)[39m
+[90m    at require (node:internal/modules/cjs/helpers:103:18)[39m
+    at Object.<anonymous> [90m(C:\Users\chance\Desktop\make\myapiServer\[39mindex.js:3:15[90m)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1159:14)[39m
+[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1037:32)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:878:12)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)[39m {
+  code: [32m'MODULE_NOT_FOUND'[39m,
+  requireStack: [ [32m'C:\\Users\\chance\\Desktop\\make\\myapiServer\\index.js'[39m ]
+}
+
+Node.js v18.12.1
+
+C:\Users\chance\Desktop\make\myapiServer>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (myapiserver)
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author:
+license: (ISC)
+About to write to C:\Users\chance\Desktop\make\myapiServer\package.json:
+
+{
+  "name": "myapiserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+
+C:\Users\chance\Desktop\make\myapiServer>npm i -s express
+
+C:\Users\chance\Desktop\make\myapiServer>dir
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 6AE3-CEB5
+
+ C:\Users\chance\Desktop\make\myapiServer 디렉터리
+
+2023-01-02  오후 05:20    <DIR>          .
+2023-01-02  오후 05:18    <DIR>          ..
+2023-01-02  오후 05:15               214 index.js
+2023-01-02  오후 05:20    <DIR>          node_modules
+2023-01-02  오후 05:20            39,687 package-lock.json
+2023-01-02  오후 05:20               257 package.json
+               3개 파일              40,158 바이트
+               3개 디렉터리  299,213,246,464 바이트 남음
+
+C:\Users\chance\Desktop\make\myapiServer>node index.js
+3000
+^C
+C:\Users\chance\Desktop\make\myapiServer>node index.js
+3000
+^C
+C:\Users\chance\Desktop\make\myapiServer>^X
+''은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+배치 파일이 아닙니다.
+
+C:\Users\chance\Desktop\make\myapiServer>node index.js
+3000
+^C
+C:\Users\chance\Desktop\make\myapiServer>node index.js
+3000
+1234
+1234
+1234
+1234
+1234
+^C
+C:\Users\chance\Desktop\make\myapiServer>node index.js
+3000
+1234
+1234
+undefined
+1234
+12334
+12334
+12334
+^C
+C:\Users\chance\Desktop\make\myapiServer>node index.js
+3000
+12334
+1234
+1234
+^C
+C:\Users\chance\Desktop\make\myapiServer>^X
+
+
+

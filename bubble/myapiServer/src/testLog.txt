@@ -1,0 +1,4 @@
+Node.js v18.12.1
+PS C:\Users\chance\Desktop\make\myapiServer> node ./src/index.js
+Server on port 3000
+Database is connected
