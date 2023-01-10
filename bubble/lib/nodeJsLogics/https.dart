@@ -4,7 +4,7 @@ import 'dart:async';
 import 'dart:convert';
 
 class Https {
-  final url = 'http://localhost:3000';
+  final url = 'http://10.0.2.2:3000';
   final sailrooms = 'saleroom/';
   final users = 'users/';
   final headers = {'Content-Type': 'application/json'};

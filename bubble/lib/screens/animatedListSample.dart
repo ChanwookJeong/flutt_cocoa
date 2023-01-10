@@ -22,7 +22,7 @@ class _AnimatedListSampleState extends State<AnimatedListSample> {
 
   Future<List<Sailroom>>? info;
   Future<List<Sailroom>> fetchInfo() async {
-    var url = 'http://192.168.219.156:3000/saleroom/';
+    var url = 'http://10.0.2.2:3000/saleroom/';
     final response = await http.get(Uri.parse(url));
 
     if (response.statusCode == 200) {
